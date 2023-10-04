@@ -20,7 +20,7 @@ detail what arguments you expect to be provided.
 ## Arguments and functions
 To test the functions on the command line:
 
-1. You can run `php index.php generate Y g 10 80` and see the output of the display function.
+1. You can run `php index.php display Y g 10 80` and see the output of the display function.
 
 2. You can run `php index.php generate Y g 10 20 g g 30 80` and see the output of the generate function.
 
