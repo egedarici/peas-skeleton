@@ -16,3 +16,21 @@ getting it running with Docker, please get in touch.
 In a shell you can run `php index.php display` or `php index.php generate` and see the output of running the functions
 in `src/index.php` along with any further arguments you provide to the command line. Please update this documentation to 
 detail what arguments you expect to be provided. 
+
+## Arguments and functions
+To test the functions on the command line:
+
+1. You can run `php index.php generate Y g 10 80` and see the output of the display function.
+
+2. You can run `php index.php generate Y g 10 20 g g 30 80` and see the output of the generate function.
+
+3. You can run `php index.php display` or `php index.php generate` with the following arguments:
+
+1st argument after `index.php` is the function to run, 
+2nd, 3rd, 6th and 7th arguments are the genes, 
+4th, 5th, 8th and 9th arguments are the sweetness rates.
+
+Thanks.
+
+
+
